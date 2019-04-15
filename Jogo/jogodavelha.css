@@ -1,0 +1,20 @@
+.cetralizado{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botao{
+	width: 150px;
+	height: 150px;
+	font-size: 120px;
+}
+
+.limpar{
+    width:458px;
+}
+
+h1{
+	font-size: 45px;
+	margin: 0px;
+}
