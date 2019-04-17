@@ -4,17 +4,21 @@
     text-align: center;
 }
 
+.titulo{
+	border: 2px #e8e8e8 solid;
+}
+
 .botao{
-	width: 150px;
-	height: 150px;
-	font-size: 120px;
+	width: 120px;
+	height: 120px;
+	font-size: 100px;
 }
 
 .limpar{
-    width:458px;
+    width:368px;
 }
 
 h1{
-	font-size: 45px;
+	font-size: 35px;
 	margin: 0px;
 }
