@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo da Velha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+	<link rel="stylesheet" type="text/css" href="./jogodavelha.css">
+	<script type="text/javascript" src="./jogodavelha.js"></script>
+
+</head>
+<body>
+    <table class='cetralizado'>
+        <tr>
+            <td colspan="3"><h1 id='labelTitulo' class='cetralizado titulo'></h1></td>
+            <td><h1 id='placar' class='cetralizado titulo'>Placar</h1></td>
+        </tr>
+        <tr>
+            <td><input id="0" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="1" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="2" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td rowspan="2"><h1 id="placarX"></h1></td>
+        </tr>
+        <tr>
+            <td><input id="3" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="4" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="5" class="botao casa" type="button" onclick='clickou(this)'/></td>
+        </tr>
+        <tr>
+            <td><input id="6" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="7" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td><input id="8" class="botao casa" type="button" onclick='clickou(this)'/></td>
+            <td rowspan="2"><h1 id="placarO"></h1></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input class="botao limpar" type="button" onclick='limpar()' value="Limpar"/></td>
+        </tr>
+    </table>
+</body>
+</html>
